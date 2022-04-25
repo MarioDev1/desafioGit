@@ -1,0 +1,70 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.title{
+    margin: 80px;
+    text-align: center;
+}
+
+.first-section{
+    margin:40px
+}
+
+.picture{
+    -moz-border-radius-topright: 40px;
+    -moz-border-radius-bottomright: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    -webkit-box-shadow: -23px 2px 18px 6px rgba(0,0,0,0.75);
+-moz-box-shadow: -23px 2px 18px 6px rgba(0,0,0,0.75);
+box-shadow: -23px 2px 18px 6px rgba(0,0,0,0.75);
+}
+
+
+.aboutMe{
+    display: block;
+    text-align: center;
+}
+
+.aboutMe h2{
+    margin-bottom: 40px;
+}
+
+
+.conteiner-carousel{
+    display: flex;
+    margin: 80px;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+}
+
+
+
+.final-section{
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+}
+
+.conteiner-footer h3{
+    font-size:25px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.button-footer{
+    font-size: 14px;
+    background:#5cb8ff;
+    padding: 15px 30px 15px 30px;
+    color: white;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.button-footer:hover {
+    color:black;
+    transition: 1s;
+}
